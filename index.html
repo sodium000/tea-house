@@ -15,7 +15,7 @@
 <body>
   <!-- banner section start here -->
 
-  <div class="container mx-auto  flex gap-10  min-h-[200px] max-w-[1250px] justify-between items-center my-[30px]">
+  <div class="container mx-auto  flex flex-col md:flex-row gap-10  min-h-[200px] max-w-[1250px] justify-between items-center my-[30px]">
     <div class="left-div">
       <h1 class="text-[80px]  font-semibold ">
         It's good <br>
@@ -24,14 +24,13 @@
       <p class="text-[18px] my-[20px]">
         Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.
       </p>
-      <button class="w-[200px] bg-red-500 min-h-[64px] rounded-md my-[7px] text-white font-bold ">
-        Explore More
+      <button class="w-[200px] bg-red-500 min-h-[64px] rounded-md my-[7px] text-white font-bold bg-linear-to-r from-[#FF8938] to-[#FF0000] flex justify-center items-center gap-3">
+        <p>Explore More</p><span><img src="./images/arrow.png" alt=""></span> 
       </button>
     </div>
-    <div class="right-div">
-      <!-- relative top-[100px] -->
-      <img src="images/banner.png" alt=""> 
-      <div class=" min-h-[100px] max-w-[255px] rounded-lg flex items-center shadow-lg">
+    <div class="right-div relative ">
+      <img src="images/banner.png" alt="" class="relative top-[100px]"> 
+      <div class=" min-h-[100px] min-w-[255px] rounded-lg flex items-center shadow-lg absolute left-[95px] bg-white">
         <span class="text-4xl"><img src="./images/star.png" alt="" class="min-h-[45px] max-w-[48px]" ></span>
         <div class="ml-4">
           <p class="text-4xl font-bold">5.00</p>
