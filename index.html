@@ -1,111 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tea-house</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>tea-house</title>
-  <link rel="stylesheet" href="./style/index.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body>
+    <!-- banner section start here -->
 
-<body>
-  <!-- banner section start here -->
-
-  <div class="container mx-auto  flex flex-col md:flex-row gap-10  min-h-[200px] max-w-[1250px] justify-between items-center my-[30px]">
-    <div class="left-div">
-      <h1 class="text-[80px]  font-semibold ">
-        It's good <br>
-        tea time at The <br> Tea House  
-      </h1>
-      <p class="text-[18px] my-[20px]">
-        Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.
-      </p>
-      <button class="w-[200px] bg-red-500 min-h-[64px] rounded-md my-[7px] text-white font-bold bg-linear-to-r from-[#FF8938] to-[#FF0000] flex justify-center items-center gap-3">
-        <p>Explore More</p><span><img src="./images/arrow.png" alt=""></span> 
-      </button>
-    </div>
-    <div class="right-div relative ">
-      <img src="images/banner.png" alt="" class="relative top-[100px]"> 
-      <div class=" min-h-[100px] min-w-[255px] rounded-lg flex items-center shadow-lg absolute left-[95px] bg-white">
-        <span class="text-4xl"><img src="./images/star.png" alt="" class="min-h-[45px] max-w-[48px]" ></span>
-        <div class="ml-4">
-          <p class="text-4xl font-bold">5.00</p>
-          <p>Trust Pilot Ratings</p>
+    <div
+      class="container mx-auto flex flex-col md:flex-row gap-10 min-h-[200px] max-w-[1250px] justify-between items-center my-[30px]"
+    >
+      <div class="left-div">
+        <h1 class="text-[80px] font-semibold">
+          It's good <br />
+          tea time at The <br />
+          Tea House
+        </h1>
+        <p class="text-[18px] my-[20px]">
+          Tea and Botanical Solutions Supplier Give Optimum <br />
+          Satisfaction To Your Taste Buds.
+        </p>
+        <button
+          class="w-[200px] bg-red-500 min-h-[64px] rounded-md my-[7px] text-white font-bold bg-linear-to-r from-[#FF8938] to-[#FF0000] flex justify-center items-center gap-3"
+        >
+          <p>Explore More</p>
+          <span><img src="./images/arrow.png" alt="" /></span>
+        </button>
+      </div>
+      <div class="right-div relative">
+        <img src="images/banner.png" alt="" class="relative top-[100px]" />
+        <div
+          class="min-h-[100px] min-w-[255px] rounded-lg flex items-center shadow-lg absolute left-[95px] bg-white"
+        >
+          <span class="text-4xl"
+            ><img
+              src="./images/star.png"
+              alt=""
+              class="min-h-[45px] max-w-[48px]"
+          /></span>
+          <div class="ml-4">
+            <p class="text-4xl font-bold">5.00</p>
+            <p>Trust Pilot Ratings</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <section class="max-w-[1250px] container mx-auto mt-[200px]">
-    <div class="text-center flex flex-col items-center">
-      <p class="text-[45px] font-extrabold manrope-uniquifier color-[#1C1C1C]  mt-auto" >
-        Our Featured Products
-      </p>
-      <p class="max-w-[901px]  mt-[10px] text-[#777777]">
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
-      </p>
-    </div>
+    <section class="max-w-[1250px] container mx-auto mt-[200px]">
+      <div class="text-center flex flex-col items-center">
+        <p
+          class="text-[45px] font-extrabold manrope-uniquifier color-[#1C1C1C] mt-auto"
+        >
+          Our Featured Products
+        </p>
+        <p class="max-w-[901px] mt-[10px] text-[#777777]">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+      </div>
 
-    <div class="grid grid-cols-4 mt-[100px]">
-      <div class="flex flex-col gap-6  justify-center items-center">
-        <div>
-          <img src="./images/tea-1.png" alt="" class="max-h-[212px]">
+      <div class="grid grid-cols-4 mt-[100px]">
+        <div class="flex flex-col gap-6 justify-center items-center">
+          <div>
+            <img src="./images/tea-1.png" alt="" class="max-h-[212px]" />
+          </div>
+          <div>
+            <p class="text-[25px] font-extrabold text-center">Milk Tea</p>
+            <p class="text-[#777777] text-center mt-[15px] mb-[20px]">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
         </div>
-        <div>
-          <p class=" text-[25px] font-extrabold text-center">
-            Milk Tea
-          </p>
-          <p class="text-[#777777] text-center mt-[15px] mb-[20px]">
-            Creamer could be replaced <br> by fresh milk
-          </p>
+        <div class="flex flex-col gap-6 justify-center items-center">
+          <div>
+            <img src="./images/tea-2.png" alt="" class="max-h-[212px]" />
+          </div>
+          <div>
+            <p class="text-[25px] font-extrabold text-center">Black Tea</p>
+            <p class="text-[#777777] text-center mt-[15px] mb-[20px]">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-6 justify-center items-center">
+          <div>
+            <img src="./images/tea-3.png" alt="" class="max-h-[212px]" />
+          </div>
+          <div>
+            <p class="text-[25px] font-extrabold text-center">Lemon Tea</p>
+            <p class="text-[#777777] text-center mt-[15px] mb-[20px]">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-6 justify-center items-center">
+          <div>
+            <img src="./images/tea-4.png" alt="" class="max-h-[212px]" />
+          </div>
+          <div>
+            <p class="text-[25px] font-extrabold text-center">Green Tea</p>
+            <p class="text-[#777777] text-center mt-[15px] mb-[20px]">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
         </div>
       </div>
-      <div class="flex flex-col gap-6  justify-center items-center">
-        <div>
-          <img src="./images/tea-2.png" alt="" class="max-h-[212px]">
-        </div>
-        <div>
-          <p class=" text-[25px] font-extrabold text-center">
-            Black Tea
-          </p>
-          <p class="text-[#777777] text-center mt-[15px] mb-[20px]">
-            Creamer could be replaced <br> by fresh milk
-          </p>
-        </div>
-      </div>
-      <div class="flex flex-col gap-6  justify-center items-center">
-        <div>
-          <img src="./images/tea-3.png" alt="" class="max-h-[212px]">
-        </div>
-        <div>
-          <p class=" text-[25px] font-extrabold text-center">
-            Lemon Tea
-          </p>
-          <p class="text-[#777777] text-center mt-[15px] mb-[20px]">
-            Creamer could be replaced <br> by fresh milk
-          </p>
-        </div>
-      </div>
-      <div class="flex flex-col gap-6  justify-center items-center">
-        <div>
-          <img src="./images/tea-4.png" alt="" class="max-h-[212px]">
-        </div>
-        <div>
-          <p class=" text-[25px] font-extrabold text-center">
-            Green Tea
-          </p>
-          <p class="text-[#777777] text-center mt-[15px] mb-[20px]">
-            Creamer could be replaced <br> by fresh milk
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-</body>
+    <!-- greate tea -->
 
+    <section class="flex flex-col md:flex-row max-w-[1250px] container mx-auto mt-[130px] h-[521px] border-red-500 gap-5">
+      <div class="fast grid grid-cols-2 grid-rows-3 gap-4 md:w-1/2">
+        <div class=" rounded-lg border-red-500 bg-linear-to-r from-[#ff0000] to-[#ff8938] opacity-10">
+        </div>
+        <div class="rounded-lg border-red-500 row-span-2 bg-[#e6a6231a]">
+          <div class=" self-start justify-self-center"> <img src="./images/fresh-2.png" alt=""></div>
+        </div>
+        <div class="rounded-lg border-red-500 row-span-2 bg-[#5776391a]">
+          <div class="   justify-self-center self-end "> <img src="./images/fresh-1.png" alt=""></div>
+        </div>
+        <div class=" rounded-lg border-red-500 bg-linear-to-r from-[#ff0000] to-[#ff8938] opacity-10"></div>
+      </div>
+      <div class="SECOND rounded-lg md:w-1/2">
+        <h1 class="text-[45px] font-extrabold manrope-uniquifier">Great Tea, Freshly <br> Presented</h1>
+        <p class="text-[16px] font-medium text-[#777777] manrope-uniquifier mt-[30px]">
+          The meaning of gong cha is chanese is to provide the best tea to
+          emperor from all possessions . It represents the highest quality and
+          self expectation. Establishing in 2006, Gong cha had been deeply
+          appreciated by its custoers because of good words of mouth and unique
+          customized service orginated from Taiwan.
+        </p>
+        <h2 class="text-[20px] font-extrabold manrope-uniquifier mt-[30px]">Unique Taste</h2>
+        <p class="text-[16px] font-medium text-[#777777] manrope-uniquifier mt-[15px]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+        <h2 class="text-[20px] font-extrabold manrope-uniquifier mt-[30px]">Premium Quality</h2>
+        <p class="text-[16px] font-medium text-[#777777] manrope-uniquifier mt-[15px]">Premium Quality that makes tea more elegant and more <br> durable when you use it.</p>
+      </div>
+    </section>
+  </body>
 </html>
