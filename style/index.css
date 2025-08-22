@@ -4,3 +4,17 @@
   font-family: "Manrope", sans-serif;
 
 }
+
+.meetbg{
+  border-radius: 10px;
+background: linear-gradient(270.00deg, rgba(255, 0, 0, 1),rgba(255, 137.00003051757812, 55.999996185302734, 1) 100%);
+}
+
+.meet1{
+  color: rgba(244, 244, 244, 1);
+font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+}
