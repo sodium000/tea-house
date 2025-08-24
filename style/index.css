@@ -6,7 +6,7 @@
 }
 
 .meetbg{
-  border-radius: 10px;
+border-radius: 10px;
 background: linear-gradient(270.00deg, rgba(255, 0, 0, 1),rgba(255, 137.00003051757812, 55.999996185302734, 1) 100%);
 }
 
@@ -37,7 +37,6 @@ border-radius: 8px;
 }
 
 .buttonp{
-
 font-family: Manrope;
 font-size: 20px;
 font-weight: 700;
@@ -55,6 +54,15 @@ line-height: 28px;
 letter-spacing: 0%;
 text-align: left;
 }
+.sectionP1{
+color: rgba(119, 119, 119, 1);
+font-family: Manrope;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
 
 .sectionh{
   color: rgba(28, 28, 28, 1);
@@ -65,4 +73,26 @@ line-height: 28px;
 letter-spacing: 0%;
 text-align: left;
 }
+
+.footer{
+  color: rgb(0, 0, 0);
+font-family: Manrope;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.footerLast{
+  color: rgb(0, 0, 0);
+font-family: Manrope;
+font-size: 24px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
 
