@@ -95,4 +95,30 @@ text-align: left;
 }
 
 
+.meet3{
+  color: rgb(0, 0, 0);
+font-family: Manrope;
+font-size: 45px;
+font-weight: 800;
+line-height: 110%;
+letter-spacing: 0px;
+}
+
+.sectionte{
+color: rgba(119, 119, 119, 1);
+font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+
+}
+
+.buttonp1{
+font-family: Manrope;
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0%;
+
+}
 
